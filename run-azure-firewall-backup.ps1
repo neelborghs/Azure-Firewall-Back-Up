@@ -23,7 +23,7 @@ param(
     [parameter(Mandatory=$true)]
     [String]$StorageAccountName="",
 	[parameter(Mandatory=$false)]
-    [string]$BlobContainerName="Azure-Firewall-Backup",
+    [string]$BlobContainerName="backup",
 	[parameter(Mandatory=$false)]
     [Int32]$RetentionDays=30
 )
